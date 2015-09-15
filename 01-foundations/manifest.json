@@ -1,0 +1,19 @@
+{
+  "name": "Superhero Jumble",
+  "description": "Mix up the heroes",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "icons": {
+    "16": "assets/images/jumble-16.png",
+    "128": "assets/images/jumble-128.png"
+  }
+
+  // Add English and Spanish support
+  // https://developer.chrome.com/extensions/i18n
+
+}
